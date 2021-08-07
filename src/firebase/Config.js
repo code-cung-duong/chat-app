@@ -3,16 +3,7 @@ import 'firebase/firebase-analytics'
 import 'firebase/firebase-auth'
 import 'firebase/firestore'
 
-var firebaseConfig = {
-  apiKey: "AIzaSyCT6UcJ1fSROa6XrtINMkdxatAgSt5LU_s",
-  authDomain: "huong-min-hoho.firebaseapp.com",
-  databaseURL: "https://huong-min-hoho-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "huong-min-hoho",
-  storageBucket: "huong-min-hoho.appspot.com",
-  messagingSenderId: "316009393400",
-  appId: "1:316009393400:web:78f2cbbdf6477d8b0b5f0d",
-  measurementId: "G-BGSGYFGCHJ"
-};
+
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 firebase.analytics();
